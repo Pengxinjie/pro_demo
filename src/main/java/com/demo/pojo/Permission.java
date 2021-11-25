@@ -1,0 +1,15 @@
+package com.demo.pojo;
+
+import lombok.Data;
+
+/**
+ * @description : 权限POJO类
+ * @version: 1.0
+ */
+@Data
+public class Permission {
+  private Integer id;
+  private String name;
+  private String keyword;
+  private String description;
+}
